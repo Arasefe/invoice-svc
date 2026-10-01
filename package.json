@@ -1,7 +1,11 @@
 {
   "name": "invoice-svc",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "private": true,
-  "scripts": {"test": "node --test"},
-  "dependencies": {}
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "pdf-stamp": "2.3.0"
+  }
 }
